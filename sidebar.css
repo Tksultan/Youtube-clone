@@ -1,0 +1,49 @@
+.sidebar{
+    position: fixed;
+    background-color: white;
+    top: 53px;
+    width: 72px;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
+    padding-top: 6px;
+}
+.sidebar-link{
+    display: flex;
+    font-family: roboto, Arial;
+    font-size: 10px;
+    flex-direction: column;
+    background-color: White;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sidebar-link.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+.home{
+    height: 30px;
+    margin-bottom: 2px;
+}
+.explore{
+    height: 30px;
+    margin-bottom: 2px;
+}
+.subscriptions{
+    height: 30px;
+    margin-bottom: 2px;
+}
+.originals{
+    height: 30px;
+    margin-bottom: 2px;
+}
+.music{
+    height: 30px;
+    margin-bottom: 2px;
+}
+.library{
+    height: 30px;
+    margin-bottom: 2px;
+}
